@@ -1,0 +1,11 @@
+[project]
+name = "long-running-agent-memo"
+version = "0.1.0"
+description = "Automated research and executive memo synthesis framework for long-running AI agents"
+requires-python = ">=3.14"
+dependencies = [
+    "markdown>=3.10.2",
+    "pypdf>=6.12.0",
+    "python-docx>=1.2.0",
+    "xhtml2pdf>=0.2.17",
+]
