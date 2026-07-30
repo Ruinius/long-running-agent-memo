@@ -66,6 +66,7 @@ All compiled memos must strictly follow `docs/writing_style.md` and `docs/format
   * **USE** standard blockquotes (starting with `>`) for highlighting key insights, role profiles, and takeaways.
 
 ### Export Guidelines
-The scripts inside `skills/scripts/` are used to convert markdown sources to final documents.
-* Target files should always be output under `output/` with matching basenames (e.g., `output/memo.md` compiles to `output/memo.docx` and `output/memo.pdf`).
+The scripts inside `skills/scripts/` are available to convert markdown sources to compiled documents when explicitly requested by the user.
+* **No Automatic Exporting**: DO NOT compile or export markdown files to `.docx` or `.pdf` unless the user explicitly requests an export.
+* Target files should always be output under `output/` with matching basenames (e.g., `output/memo.md` compiles to `output/memo.docx` and `output/memo.pdf`) when export is requested.
 * Never overwrite client-shared reference source-of-truth files in `reference/` or other directories.

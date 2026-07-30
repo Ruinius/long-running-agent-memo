@@ -44,8 +44,8 @@ Draft the structural outline inside `output/outline.md` and align with stakehold
 ### Step 6: Draft the Memo
 Synthesize findings from `research/` and draft the final memo in `output/memo.md`. Ensure strict alignment with formatting and writing rules.
 
-### Step 7: Export the Memo
-Export the final draft markdown file to Word (DOCX) and PDF formats using the scripts inside `skills/scripts/`.
+### Step 7: Export the Memo (On User Request Only)
+Export the final draft markdown file to Word (DOCX) and PDF formats using the scripts inside `skills/scripts/` ONLY when explicitly requested by the user. Do not perform automatic exports.
 
 ## Common Mistakes
 - **Hype and Buzzwords**: Avoid speculative or overly promotional marketing language. Stick to clear, operator-grade insights.
