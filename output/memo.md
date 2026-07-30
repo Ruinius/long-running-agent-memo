@@ -17,7 +17,7 @@ Sierra AI (Bret Taylor): Co-founder Bret Taylor emphasizes the enterprise evolut
 
 OpenWorker / DeepLearning.AI (Andrew Ng): Framework creator Andrew Ng emphasized the shift to task completion at the OpenWorker launch, stating that _"The fundamental shift in AI is moving beyond conversational text responses to delivering finished work and tangible deliverables as a true digital co-worker"_ (Andrew Ng, OpenWorker Release, July 2026).
 
-Capturing these high-margin opportunities requires deploying Forward Deployed Engineering (FDE) pods as the core growth engine for AI agent companies. Embedded directly within customer environments, these elite A-teams rapidly solve vertical product-market fit for AI agents across unique customer workflows. Crucially, FDE pods are neither routine SaaS implementation teams (which are unsustainably expensive to staff with AI talent) nor IT consulting practices (which rely on labor arbitrage). While SaaS vendors and consulting firms frequently attempt to adopt AI company language without altering their underlying products or services—creating market confusion—true FDE pods operate as a scarce pool of Silicon Valley talent, dedicated to building AI agent capabilities in the vertical.
+Capturing these high-margin opportunities requires deploying Forward Deployed Engineering (FDE) pods as the core growth engine for AI agent companies. Embedded directly within customer environments, these elite A-teams rapidly solve vertical product-market fit for AI agents across unique customer workflows. Crucially, FDE pods are neither routine SaaS implementation teams (which are unsustainably expensive to staff with AI talent) nor IT consulting practices (which is a labor arbitrage business). True FDE pods are composed of elite AI Solution Managers who are technically fluent business strategists and navigators, Forward Deployed Engineers who are business minded, scrappy zero-to-one engineers, and AI Architects who are resourceful and pragmatic AI researchers. Together they build AI agent capabilities in the vertical and drive scalable, sustained growth.
 
 ## 1. Defining Long-Running Autonomous Agents: Architecture, State Persistence, and Market Reality
 
@@ -145,21 +145,21 @@ Navigating corporate organizational structures, discovering informal operational
 
 #### AI Solution Manager — The "What"
 
-> **Profile:** A business operator—typically with a background in management consulting, product strategy, or enterprise operations—who aligns business objectives with AI capabilities.
+> **Profile:** A technically fluent business strategist and navigator—typically with a background in product strategy, management consulting, or enterprise operations—who aligns business objectives with AI capabilities and navigates complex client organizations.
 
-The AI Solution Manager determines what processes to automate. This role involves mapping informal business procedures into structured logic, identifying real-world edge cases missing from official client documentation, and securing executive alignment across business units.
+The AI Solution Manager determines what processes to automate. As a technically fluent business strategist and navigator, this role maps informal business procedures into structured logic, identifies real-world edge cases missing from official client documentation, and secures executive alignment across business units.
 
 #### Forward Deployed Engineer — The "How"
 
-> **Profile:** A software and machine learning engineer focused on rapid system integration, custom API bindings, context management, and live debugging.
+> **Profile:** A business-minded, scrappy zero-to-one engineer focused on rapid system integration, custom API bindings, context management, and live debugging in client environments.
 
-The Forward Deployed Engineer determines how the system operates. This role builds API connectors, writes error-handling wrappers for legacy software, implements memory management routines, and refines execution loops directly within client environments.
+The Forward Deployed Engineer determines how the system operates. As a business-minded, scrappy zero-to-one engineer, this role builds API connectors, writes error-handling wrappers for legacy software, implements memory management routines, and refines execution loops directly within client environments.
 
 #### AI Architect — The "Why"
 
-> **Profile:** A systems specialist who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs.
+> **Profile:** A resourceful and pragmatic AI researcher who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs.
 
-The AI Architect diagnoses why agents drift or fail in production. This specialist inspects model reasoning trajectories, tunes supervisor guardrails, designs memory storage structures, and ensures operational stability over multi-day execution loops.
+The AI Architect diagnoses why agents drift or fail in production. As a resourceful and pragmatic AI researcher, this specialist inspects model reasoning trajectories, tunes supervisor guardrails, designs memory storage structures, and ensures operational stability over multi-day execution loops.
 
 ### Economic Trajectory: Sequential Vertical Mastery & Managing Custom Code
 
@@ -173,7 +173,7 @@ In enterprise IT, roughly 10% to 15% of client integration logic—such as custo
 
 Without strict operational boundaries, FDE pods risk falling into two destructive traps:
 
-The Subsidized IT Consultancy Trap: The venture degrades into a traditional IT services firm selling billable human hours. AI agent companies operate on a fundamentally different financial model: selling autonomous software workers at high software margins rather than billing for human effort.
+The Subsidized IT Consultancy Trap: The venture degrades into a traditional IT consulting practice (which is a labor arbitrage business) selling billable human hours. AI agent companies operate on a fundamentally different financial model: selling autonomous software workers at high software margins rather than billing for human effort.
 
 The Glorified Implementation Team Trap: Senior engineering talent remains permanently tied down by routine customer maintenance and custom implementation work. This inflates operating costs and starves new vertical expansion of top technical talent.
 

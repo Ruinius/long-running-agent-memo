@@ -15,7 +15,7 @@
 - **Sierra AI (Bret Taylor):** Co-founder Bret Taylor emphasizes the enterprise evolution toward autonomous action, stating that _"AI agents are emerging as the new digital front door for enterprises, taking direct business actions rather than merely serving as passive conversational interfaces"_ (Bret Taylor, Sierra AI Keynote, February 2026).
 - **OpenWorker / DeepLearning.AI (Andrew Ng):** Framework creator Andrew Ng emphasized the shift to task completion at the OpenWorker launch, stating that _"The fundamental shift in AI is moving beyond conversational text responses to delivering finished work and tangible deliverables as a true digital co-worker"_ (Andrew Ng, OpenWorker Release, July 2026).
 
-**3. Execution Strategy: FDE Pods as PMF SWAT Teams:** Capturing these high-margin opportunities requires deploying Forward Deployed Engineering (FDE) pods as the core growth engine for AI agent companies. Embedded directly within customer environments, these elite A-teams rapidly solve vertical product-market fit for AI agents across unique customer workflows. Crucially, FDE pods are neither routine SaaS implementation teams (which are unsustainably expensive to staff with AI talent) nor IT consulting practices (which rely on labor arbitrage). While SaaS vendors and consulting firms frequently attempt to adopt AI company language without altering their underlying products or services—creating market confusion—true FDE pods operate as a scarce pool of Silicon Valley talent, dedicated to building AI agent capabilities in the vertical.
+**3. Execution Strategy: FDE Pods as PMF SWAT Teams:** Capturing these high-margin opportunities requires deploying Forward Deployed Engineering (FDE) pods as the core growth engine for AI agent companies. Embedded directly within customer environments, these elite A-teams rapidly solve vertical product-market fit for AI agents across unique customer workflows. Crucially, FDE pods are neither routine SaaS implementation teams (which are unsustainably expensive to staff with AI talent) nor IT consulting practices (which is a labor arbitrage business). True FDE pods are composed of elite AI Solution Managers who are technically fluent business strategists and navigators, Forward Deployed Engineers who are business minded, scrappy zero-to-one engineers, and AI Architects who are resourceful and pragmatic AI researchers. Together they build AI agent capabilities in the vertical and drive scalable, sustained growth.
 
 ---
 
@@ -160,21 +160,21 @@ Deploying FDE is explicitly structured as a multi-disciplinary **pod**, rather t
 
 #### Role 1: AI Solution Manager — The "What"
 
-> **Profile:** A business operator—typically with a background in management consulting, product strategy, or enterprise operations—who aligns business objectives with AI capabilities. (Also commonly titled **Deployment Strategist**, **Agent Strategist**, or **Engagement Manager**).
+> **Profile:** A technically fluent business strategist and navigator—typically with a background in product strategy, management consulting, or enterprise operations—who aligns business objectives with AI capabilities and navigates complex client organizations. (Also commonly titled **Deployment Strategist**, **Agent Strategist**, or **Engagement Manager**).
 
-The AI Solution Manager establishes **what** processes to automate: mapping informal business logic into structured workflows, uncovering real-world edge cases omitted from client documentation, and securing executive buy-in.
+The AI Solution Manager establishes **what** processes to automate: acting as a technically fluent business strategist and navigator to map informal business logic into structured workflows, uncover real-world edge cases omitted from client documentation, and secure executive buy-in.
 
 #### Role 2: Forward Deployed Engineer — The "How"
 
-> **Profile:** A software and machine learning engineer focused on rapid system integration, custom API bindings, context management, and live debugging. (Also commonly titled **Machine Learning Engineer** or **Applied AI Engineer**).
+> **Profile:** A business-minded, scrappy zero-to-one engineer focused on rapid system integration, custom API bindings, context management, and live debugging in client environments. (Also commonly titled **Machine Learning Engineer** or **Applied AI Engineer**).
 
-The Forward Deployed Engineer executes **how** the system operates: building API connectors, writing error-handling wrappers for legacy IT systems, implementing memory management routines, and refining execution loops directly within client environments.
+The Forward Deployed Engineer executes **how** the system operates: operating as a business-minded, scrappy zero-to-one engineer to build API connectors, write error-handling wrappers for legacy IT systems, implement memory management routines, and refine execution loops directly within client environments.
 
 #### Role 3: AI Architect — The "Why"
 
-> **Profile:** A systems specialist who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs. (Also commonly titled **Forward Deployed Data Scientist** or **Forward Deployed AI Researcher**).
+> **Profile:** A resourceful and pragmatic AI researcher who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs. (Also commonly titled **Forward Deployed Data Scientist** or **Forward Deployed AI Researcher**).
 
-The AI Architect diagnoses **why** agents drift or fail in production: inspecting reasoning trajectories, tuning supervisor safeguards, designing memory structures, and ensuring operational stability across multi-day execution loops.
+The AI Architect diagnoses **why** agents drift or fail in production: operating as a resourceful and pragmatic AI researcher to inspect reasoning trajectories, tune supervisor safeguards, design memory structures, and ensure operational stability across multi-day execution loops.
 
 ### Economic Trajectory: Sequential Vertical Mastery & Managing Custom Code
 
@@ -188,7 +188,7 @@ While team-intensive during initial client onboarding, the FDE pod's ultimate ec
 
 Without strict operational boundaries, FDE pods risk falling into structural traps:
 
-1. **The "Subsidized IT Consultancy" Trap (Wrong Business Model):** Degrading into a custom IT services firm selling billable hours. AI agent ventures operate on a completely different model—selling autonomous software workers rather than selling human hours.
+1. **The "Subsidized IT Consultancy" Trap (Labor Arbitrage Model):** Degrading into a traditional IT consulting practice (which is a labor arbitrage business) selling billable human hours. AI agent companies operate on a fundamentally different model—selling autonomous software workers at high software margins rather than billing for human effort.
 2. **The "Glorified Implementation Team" Trap (Unsustainable Cost Structure):** Assigning Tier-1 FDE teams to routine maintenance or permanent implementation overhead, creating a cost structure that is too expensive to sustain and starves new vertical expansion of top talent.
 
 #### Strategic Discipline and Graceful Rejection
