@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-**1. Long-Running Autonomous Agents vs. Chatbots & Stateless Swarms:** Long-running autonomous agents mark a fundamental departure from both conversational chatbots and short-lived agent swarms. Chatbots operate on synchronous, ephemeral prompt-response transactions, while stateless agent swarms execute immediate, multi-agent task loops that reset memory as soon as the job finishes. Long-running agents, by contrast, act independently over extended time horizons—hours, days, or weeks—across asynchronous background events. This autonomy relies on two structural pillars: **Durable Execution State**—the ability to save work-in-progress, event logs, and tool actions to persistent storage so agents can pause, await human sign-offs, and resume cleanly across system restarts without losing context—and **Persistent Memory**, which maintains operational history, past decisions, and domain knowledge across sessions.
+**1. Long-Running Autonomous Agents vs. Interactive Co-Pilots & Stateless Swarms:** Long-running autonomous agents mark a fundamental departure from both interactive co-pilots and short-lived agent swarms. While co-pilots interact back-and-forth synchronously with the user to assist in real-time, step-by-step tasks, and stateless agent swarms execute immediate multi-agent task loops that reset memory upon completion, long-running agents act independently over extended time horizons—hours, days, or weeks—across asynchronous background events. This autonomy relies on two structural pillars: **Durable Execution State**—the ability to save work-in-progress, event logs, and tool actions to persistent storage so agents can pause, await human sign-offs, and resume cleanly across system restarts without losing context—and **Persistent Memory**, which maintains operational history, past decisions, and domain knowledge across sessions.
 
 **2. High-Impact Market Opportunities & Industry Leaders:** While coding agents represent the most lucrative application area, AI-assisted software development is already a crowded market dominated by frontier labs and specialized startups. Consequently, the next best high-margin commercial opportunities for enterprise AI agent ventures lie in core business operations: **Outbound Business Development (BDR)** (prospect sourcing, contact enrichment, and lead qualification), **IT Service Management (ITSM)** (automated helpdesk ticket resolution and access provisioning), **Financial Services KYC & Loan Origination** (automated identity verification and underwriting packages), and **Enterprise Legacy Software Modernization** (automated dependency updates and codebase refactoring). Industry leadership is defined across pioneering platforms and open-source foundations:
 
@@ -23,7 +23,7 @@
 
 ### Technical Definition and Core Primitives
 
-Long-running autonomous agents are software workers built to operate over long time horizons using persistent memory and saved execution states. Unlike conversational chatbots that process brief, one-off interactions, or stateless swarms that run quick batch jobs before clearing memory, long-running agents execute continuous background loops over hours, days, or weeks—responding to system events, scheduled timers, or database updates.
+Long-running autonomous agents are software workers built to operate over long time horizons using persistent memory and saved execution states. Unlike interactive co-pilots that rely on continuous back-and-forth engagement with the user, or stateless swarms that run quick batch jobs before clearing memory, long-running agents execute continuous background loops over hours, days, or weeks—responding to system events, scheduled timers, or database updates.
 
 Three core capabilities govern long-running agent execution:
 
@@ -31,17 +31,17 @@ Three core capabilities govern long-running agent execution:
 - **Isolated Digital Workspaces:** Secure, dedicated execution environments equipped with file systems, terminal access, and enterprise API connections.
 - **Self-Correcting Planning:** Autonomous evaluation loops where agents monitor intermediate outputs, recognize errors or unexpected system responses, and adjust their strategy without waiting for human prompts.
 
-#### Comparative Overview: Traditional AI Chatbots vs. Stateless Agent Swarms vs. Long-Running Autonomous Agents
+#### Comparative Overview: Interactive AI Co-Pilots vs. Stateless Agent Swarms vs. Long-Running Autonomous Agents
 
-| Feature                               | Traditional AI Chatbots                                          | Stateless Agent Swarms                                               | Long-Running Autonomous Agents                                                 |
+| Feature                               | Interactive AI Co-Pilots                                         | Stateless Agent Swarms                                               | Long-Running Autonomous Agents                                                 |
 | :------------------------------------ | :--------------------------------------------------------------- | :------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
-| **Execution Horizon**                 | Minutes (ephemeral, single user sessions).                       | Hours (short batch task loops).                                      | Days to Weeks (continuous background loops).                                   |
+| **Execution Horizon**                 | Minutes (ephemeral, synchronous back-and-forth user sessions).   | Hours (short batch task loops).                                      | Days to Weeks (continuous background loops).                                   |
 | **Memory & State Model**              | In-memory session context; resets when window closes.            | Message queues between agents; resets upon job completion.           | Persistent memory and durable execution state saved to storage.                |
 | **Digital Workspaces**                | Sandboxed single-request tool calls.                             | Shared temporary scratchpads per agent.                              | Dedicated long-lived environments (file systems, terminal, enterprise APIs).   |
-| **Decision Autonomy**                 | Reactive single-prompt answers.                                  | Pre-defined task delegation across agents.                           | Autonomous self-reflection, trajectory tracking, and re-planning.              |
-| **Human Interaction**                 | Direct, synchronous conversation.                                | Unattended batch execution; unhandled errors cause failure.          | Asynchronous pause-and-resume; hibernates while awaiting approvals.            |
+| **Decision Autonomy**                 | Human-guided, back-and-forth prompt interaction.                | Pre-defined task delegation across agents.                           | Autonomous self-reflection, trajectory tracking, and re-planning.              |
+| **Human Interaction**                 | Direct, synchronous back-and-forth engagement.                   | Unattended batch execution; unhandled errors cause failure.          | Asynchronous pause-and-resume; hibernates while awaiting approvals.            |
 | **Primary Operational Failure Modes** | Context exhaustion, prompt drift, immediate session termination. | Inter-agent coordination overhead, message flooding, error cascades. | Memory accumulation drift, circular retry loops, token budget overruns.        |
-| **Core Enterprise Use Cases**         | Conversational Q&A, writing assistance, document search.         | Parallel web research, batch processing, data extraction.            | Autonomous BDR lead qualification, ITSM access automation, legacy refactoring. |
+| **Core Enterprise Use Cases**         | Interactive code completion, pair writing, live document search. | Parallel web research, batch processing, data extraction.            | Autonomous BDR lead qualification, ITSM access automation, legacy refactoring. |
 
 ### End-to-End Operational Workflow: ITSM Long-Running Agent
 
