@@ -41,7 +41,7 @@ Three core capabilities govern long-running agent execution:
 | **Decision Autonomy**                 | Reactive single-prompt answers.                                  | Pre-defined task delegation across agents.                           | Autonomous self-reflection, trajectory tracking, and re-planning.              |
 | **Human Interaction**                 | Direct, synchronous conversation.                                | Unattended batch execution; unhandled errors cause failure.          | Asynchronous pause-and-resume; hibernates while awaiting approvals.            |
 | **Primary Operational Failure Modes** | Context exhaustion, prompt drift, immediate session termination. | Inter-agent coordination overhead, message flooding, error cascades. | Memory accumulation drift, circular retry loops, token budget overruns.        |
-| **Core Enterprise Use Cases**         | Conversational Q&A, writing assistance, document search.         | Parallel web research, batch document parsing, data extraction.      | Autonomous BDR lead qualification, ITSM access automation, legacy refactoring. |
+| **Core Enterprise Use Cases**         | Conversational Q&A, writing assistance, document search.         | Parallel web research, batch processing, data extraction.            | Autonomous BDR lead qualification, ITSM access automation, legacy refactoring. |
 
 ### End-to-End Operational Workflow: ITSM Long-Running Agent
 
