@@ -9,13 +9,13 @@
 
 **1. Long-Running Autonomous Agents vs. Chatbots & Stateless Swarms:** Long-running autonomous agents mark a fundamental departure from both conversational chatbots and short-lived agent swarms. Chatbots operate on synchronous, ephemeral prompt-response transactions, while stateless agent swarms execute immediate, multi-agent task loops that reset memory as soon as the job finishes. Long-running agents, by contrast, act independently over extended time horizons—hours, days, or weeks—across asynchronous background events. This autonomy relies on two structural pillars: **Durable Execution State**—the ability to save work-in-progress, event logs, and tool actions to persistent storage so agents can pause, await human sign-offs, and resume cleanly across system restarts without losing context—and **Persistent Memory**, which maintains operational history, past decisions, and domain knowledge across sessions.
 
-**2. High-Impact Market Opportunities & Industry Leaders:** While general greenfield coding tools represent a crowded red-ocean market dominated by frontier AI labs and specialized developer startups, the most compelling, high-margin commercial opportunities for enterprise AI agent ventures lie in core business operations: **Outbound Business Development (BDR)** (prospect sourcing, contact enrichment, and lead qualification), **IT Service Management (ITSM)** (automated helpdesk ticket resolution and access provisioning), **Financial Services KYC & Loan Origination** (automated identity verification and underwriting packages), and **Enterprise Legacy Software Modernization** (automated dependency updates and legacy codebase refactoring). Industry leadership is defined across pioneering platforms and open-source foundations:
+**2. High-Impact Market Opportunities & Industry Leaders:** While coding agents represent the most lucrative application area, AI-assisted software development is already a crowded market dominated by frontier labs and specialized startups. Consequently, the next best high-margin commercial opportunities for enterprise AI agent ventures lie in core business operations: **Outbound Business Development (BDR)** (prospect sourcing, contact enrichment, and lead qualification), **IT Service Management (ITSM)** (automated helpdesk ticket resolution and access provisioning), **Financial Services KYC & Loan Origination** (automated identity verification and underwriting packages), and **Enterprise Legacy Software Modernization** (automated dependency updates and codebase refactoring). Industry leadership is defined across pioneering platforms and open-source foundations:
 
 - **Cognition AI (Scott Wu):** Founder Scott Wu highlights the shift to autonomous software engineering, noting that _"Teaching AI to solve complex engineering problems requires an agent to look steps into the future, take ownership of entire multi-day tasks, and focus on verifiable results rather than raw prompt activity"_ (Scott Wu, Cognition AI Address, 2024/2026).
 - **Sierra AI (Bret Taylor):** Enterprise platform co-founder Bret Taylor emphasizes that _"AI should operate as an always-on extension of a company, taking direct business actions rather than merely answering user questions"_ (Bret Taylor, Sierra AI Platform Declaration, 2024/2025).
 - **OpenWorker (Andrew Ng):** Open-source framework creator Andrew Ng asserts that _"For the vast majority of businesses, the immediate value lies in building application-specific agentic workflows rather than trying to train frontier base models from scratch"_ (Andrew Ng, DeepLearning.AI / OpenWorker Release, July 2026).
 
-**3. Execution Strategy: FDE Pods as PMF SWAT Teams:** Capturing these market opportunities requires deploying high-touch Forward Deployed Engineering (FDE) pods composed of **AI Solution Managers**, **Forward Deployed Engineers**, and **AI Architects**. However, ventures frequently fail by falling into two major traps: treating pods as permanent implementation overhead or, worse, low-margin IT consultancies selling billable hours (the "Palantir Trap"). The winning model treats FDE pods as **product-market-fit searching SWAT teams**. Embedded directly inside customer environments, these SWAT teams focus on scalable use cases, solving immediate operational bottlenecks while systematically extracting custom client integrations into generalizable agent tools and deterministic policy rules.
+**3. Execution Strategy: FDE Pods as PMF SWAT Teams:** Capturing these market opportunities requires deploying high-touch Forward Deployed Engineering (FDE) pods composed of **AI Solution Managers**, **Forward Deployed Engineers**, and **AI Architects**. However, FDE teams risk failure by falling into two traps: treating pods as glorified implementation teams (which are too expensive to sustain) or becoming a subsidized IT consultancy (which is the wrong business model). The winning model treats FDE pods as **product-market-fit searching SWAT teams**. Embedded directly inside customer environments, these SWAT teams focus on scalable use cases and drive both company-specific and vertical product-market fit.
 
 ---
 
@@ -160,19 +160,19 @@ Deploying FDE is explicitly structured as a multi-disciplinary **pod**, rather t
 
 #### Role 1: AI Solution Manager — The "What"
 
-> **Profile:** A business operator—typically with a background in management consulting, product strategy, or enterprise operations—who aligns business objectives with AI capabilities.
+> **Profile:** A business operator—typically with a background in management consulting, product strategy, or enterprise operations—who aligns business objectives with AI capabilities. (Also commonly titled **Deployment Strategist**, **Agent Strategist**, or **Engagement Manager**).
 
 The AI Solution Manager establishes **what** processes to automate: mapping informal business logic into structured workflows, uncovering real-world edge cases omitted from client documentation, and securing executive buy-in.
 
 #### Role 2: Forward Deployed Engineer — The "How"
 
-> **Profile:** A software and machine learning engineer focused on rapid system integration, custom API bindings, context management, and live debugging.
+> **Profile:** A software and machine learning engineer focused on rapid system integration, custom API bindings, context management, and live debugging. (Also commonly titled **Machine Learning Engineer** or **Applied AI Engineer**).
 
 The Forward Deployed Engineer executes **how** the system operates: building API connectors, writing error-handling wrappers for legacy IT systems, implementing memory management routines, and refining execution loops directly within client environments.
 
-#### Role 3: Pragmatic AI Architect — The "Why"
+#### Role 3: AI Architect — The "Why"
 
-> **Profile:** A systems specialist who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs.
+> **Profile:** A systems specialist who analyzes model reasoning, guardrail stability, supervisor alignment, and memory performance over extended execution runs. (Also commonly titled **Forward Deployed Data Scientist** or **Forward Deployed AI Researcher**).
 
 The AI Architect diagnoses **why** agents drift or fail in production: inspecting reasoning trajectories, tuning supervisor safeguards, designing memory structures, and ensuring operational stability across multi-day execution loops.
 
@@ -188,8 +188,8 @@ While team-intensive during initial client onboarding, the FDE pod's ultimate ec
 
 Without strict operational boundaries, FDE pods risk falling into structural traps:
 
-1. **The "Consulting Firm" Trap (Labor Arbitrage vs. Software Product):** IT consulting firms sell human billable hours and scale via offshore labor arbitrage. AI agent ventures operate on a completely different business model—selling autonomous software workers. Treating FDE pods as billable IT consultants shifts company focus away from software scalability toward custom project delivery.
-2. **The "Perpetual Implementation" Trap (Misallocating Elite Talent):** Assigning Tier-1 FDE teams to routine maintenance or mature deployments creates an unsustainable cost structure and starves new vertical expansion of top talent.
+1. **The "Subsidized IT Consultancy" Trap (Wrong Business Model):** Degrading into a custom IT services firm selling billable hours. AI agent ventures operate on a completely different model—selling autonomous software workers rather than selling human hours.
+2. **The "Glorified Implementation Team" Trap (Unsustainable Cost Structure):** Assigning Tier-1 FDE teams to routine maintenance or permanent implementation overhead, creating a cost structure that is too expensive to sustain and starves new vertical expansion of top talent.
 
 #### Strategic Discipline and Graceful Rejection
 
@@ -343,4 +343,4 @@ Layer 3 provides the comprehensive suite of standardized, reusable tools require
 
 ## Strategic Conclusion
 
-Long-running autonomous agents represent the next major shift in corporate productivity, moving AI from casual conversation to complex background task execution. Embedded Forward Deployed Engineering (FDE) pods serve as the vital engine of growth, bridging the gap between probabilistic language models and messy corporate IT infrastructure. Yet long-term commercial value belongs to companies that sidestep the low-margin consulting trap—focusing on scalable operational workflows, managing unit-economic risks through capped outcome pricing, and enforcing a decoupled three-layer architecture. By systematically converting frontline deployment intensity into reusable software IP and deterministic governance, disciplined ventures will transform custom client integrations into sector-defining, high-margin automation platforms.
+Long-running autonomous agents represent the next major shift in corporate productivity, moving AI from casual conversation to complex background task execution. Embedded Forward Deployed Engineering (FDE) pods serve as the vital engine of growth, bridging the gap between probabilistic language models and messy corporate IT infrastructure. Yet long-term commercial value belongs to companies that sidestep the subsidized IT consultancy trap—focusing on scalable operational workflows, managing unit-economic risks through capped outcome pricing, and enforcing a decoupled three-layer architecture. By systematically converting frontline deployment intensity into reusable software IP and deterministic governance, disciplined ventures will transform custom client integrations into sector-defining, high-margin automation platforms.
