@@ -70,3 +70,15 @@ The scripts inside `skills/scripts/` are available to convert markdown sources t
 * **No Automatic Exporting**: DO NOT compile or export markdown files to `.docx` or `.pdf` unless the user explicitly requests an export.
 * Target files should always be output under `output/` with matching basenames (e.g., `output/memo.md` compiles to `output/memo.docx` and `output/memo.pdf`) when export is requested.
 * Never overwrite client-shared reference source-of-truth files in `reference/` or other directories.
+
+### Strategic Definition: Forward Deployed Engineering (FDE) Pods
+
+All memo drafts, outlines, and discussions MUST strictly adhere to this exact definition of FDE Pods:
+1. **Growth Engine for AI Agent Companies**: FDE pods serve as the primary growth engine for AI agent companies because they embed directly within customer environments to rapidly solve vertical product-market fit for AI agents across unique customer workflows.
+2. **NOT Implementation Teams**: FDE pods are NOT routine SaaS implementation teams (a naming mistake made by SaaS companies attempting to rebrand traditional onboarding). They are elite, highly specialized AI A-teams that are far too unsustainably expensive to function as mere implementation crews.
+3. **NOT Consulting Teams**: FDE pods are NOT IT consulting or professional services teams (a naming mistake made by consulting firms attempting to rebrand IT services). They consist of a limited pool of elite Silicon Valley A-teams with zero path towards low-margin labor arbitrage.
+4. **Rebranding Attempts vs. Market Confusion**: Traditional SaaS companies and IT consulting firms attempt to rebrand their existing teams using AI company terminology without changing their fundamental underlying product or service. While these rebranding attempts are not ill-intentioned, they introduce market confusion. Real FDE pods remain scarce Silicon Valley A-teams focused exclusively on building AI agent capabilities in the vertical.
+
+### Terminology Rules
+* **AVOID Outdated SaaS Language**: Do NOT use terms like "platform capabilities" or traditional SaaS onboarding jargon.
+* **USE Vertical AI Agent Framing**: Always refer to **"building AI agent capabilities in the vertical"** (or vertical AI agent capabilities) when describing how FDE pods distill customer workflows into reusable assets.
