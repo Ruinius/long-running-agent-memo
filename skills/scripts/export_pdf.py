@@ -83,6 +83,23 @@ def export_to_pdf(markdown_path, pdf_path):
                 font-weight: bold;
                 color: #1a252f;
             }}
+            pre {{
+                background-color: #f8fafc;
+                border: 1px solid #cbd5e1;
+                border-radius: 4px;
+                padding: 8px;
+                font-family: Courier, 'Courier New', monospace;
+                font-size: 8pt;
+                line-height: 1.25;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }}
+            code {{
+                font-family: Courier, 'Courier New', monospace;
+                font-size: 8.5pt;
+                background-color: #f1f5f9;
+                padding: 1px 3px;
+            }}
             .table-wrapper {{
                 page-break-inside: avoid;
                 display: block;
@@ -101,22 +118,20 @@ def export_to_pdf(markdown_path, pdf_path):
             }}
             th {{
                 text-align: left;
-                padding: 4px;
-                border: 1px solid #bdc3c7;
+                padding: 5px;
+                border: 1px solid #cbd5e1;
                 font-weight: bold;
-                color: #333;
+                color: #1e293b;
                 word-wrap: break-word;
                 vertical-align: top;
+                background-color: #f1f5f9;
             }}
             td {{
-                padding: 4px;
-                border: 1px solid #bdc3c7;
-                color: #333;
+                padding: 5px;
+                border: 1px solid #cbd5e1;
+                color: #334155;
                 word-wrap: break-word;
                 vertical-align: top;
-            }}
-            th:first-child, td:first-child {{
-                width: 35%;
             }}
         </style>
     </head>

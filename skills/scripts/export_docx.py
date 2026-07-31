@@ -7,28 +7,32 @@ from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 
 def process_markdown_styles(paragraph, text):
-    """Parses text for bold (** or __) and italics (* or _) and adds appropriate runs."""
-    pattern = r'(\*\*(?P<bold1>.*?)\*\*|__(?P<bold2>.*?)__|_(?P<italic1>.*?)_|\*(?P<italic2>.*?)\*)'
-    
-    last_idx = 0
-    for match in re.finditer(pattern, text):
-        if match.start() > last_idx:
-            paragraph.add_run(text[last_idx:match.start()])
+    """Parses text for bold (** or __), italics (* or _), and line breaks (<br>)."""
+    parts = re.split(r'<br\s*/?>', text, flags=re.IGNORECASE)
+    for part_idx, part in enumerate(parts):
+        if part_idx > 0:
+            paragraph.add_run().add_break()
+        pattern = r'(\*\*(?P<bold1>.*?)\*\*|__(?P<bold2>.*?)__|_(?P<italic1>.*?)_|\*(?P<italic2>.*?)\*)'
         
-        m_bold = match.group('bold1') or match.group('bold2')
-        m_italic = match.group('italic1') or match.group('italic2')
+        last_idx = 0
+        for match in re.finditer(pattern, part):
+            if match.start() > last_idx:
+                paragraph.add_run(part[last_idx:match.start()])
+            
+            m_bold = match.group('bold1') or match.group('bold2')
+            m_italic = match.group('italic1') or match.group('italic2')
+            
+            if m_bold:
+                run = paragraph.add_run(m_bold)
+                run.bold = True
+            elif m_italic:
+                run = paragraph.add_run(m_italic)
+                run.italic = True
+            
+            last_idx = match.end()
         
-        if m_bold:
-            run = paragraph.add_run(m_bold)
-            run.bold = True
-        elif m_italic:
-            run = paragraph.add_run(m_italic)
-            run.italic = True
-        
-        last_idx = match.end()
-    
-    if last_idx < len(text):
-        paragraph.add_run(text[last_idx:])
+        if last_idx < len(part):
+            paragraph.add_run(part[last_idx:])
 
 def set_cell_padding(cell, top=0, start=0, bottom=0, end=0):
     """Set cell margins (padding) in EMUs."""

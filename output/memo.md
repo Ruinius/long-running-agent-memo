@@ -191,34 +191,14 @@ Third, with a battle-tested core engine, the venture deploys multidisciplinary F
 
 To protect AI agent margins and prevent the AI agent from degrading into custom IT services, AI agent architectures must enforce a strict separation between core engine capabilities, client business logic, and generalizable tool connectors.
 
-```
-+-----------------------------------------------------------------------+
-|                       LAYER 1: CORE AGENT ENGINE                      |
-|  - Durable Execution State Serializer   - Self-Correcting Reflection  |
-|  - Context Compaction Engine            - Supervisor Audit & Logging  |
-|  - Dynamic Model Routing & SLM/LLM      - Persistent Memory R&D       |
-|  * 100% Proprietary Venture IP (Managed by Core Product Team)        |
-+-----------------------------------------------------------------------+
-                                    |
-                                    v
-+-----------------------------------------------------------------------+
-|            LAYER 2: CUSTOM SKILLS & DETERMINISTIC GOVERNANCE          |
-|  - Declarative SKILL.md Packages        - Deterministic Policy Engines|
-|  - Ad-Hoc Execution Scripts & Tooling   - JSON Schema Validators      |
-|  - Custom Client Business Rules         - Dedicated Evaluation Suites |
-|  * Modular IP (Venture Retains Sanitized IP / Client Buyout via MSA) |
-+-----------------------------------------------------------------------+
-                                    |
-                                    v
-+-----------------------------------------------------------------------+
-|         LAYER 3: GENERALIZABLE TOOLS & ENTERPRISE ACTION ECOSYSTEM    |
-|  - Enterprise API Wrappers (SAP/Jira)   - Browser Automation Drivers  |
-|  - File & Document Generators           - Scoped Least-Privilege Suites|
-|  * Shared AI Agent Registry (Accumulated to Drive ~98% Vertical PMF)  |
-+-----------------------------------------------------------------------+
-```
+| Layer | Architectural Layer Name | Core Technical Components | IP Ownership & Business Model |
+| :--- | :--- | :--- | :--- |
+| **Layer 1** | **Core Agent Engine** | Durable Execution State Serializer, Self-Correcting Reflection, Context Compaction Engine, Supervisor Audit & Logging, Dynamic Model Routing (SLM/LLM), Persistent Memory R&D | **100% Proprietary Venture IP**<br>(Managed by Core Product Team; core engine innovations originate in FDE pods before being battle-tested, abstracted, and transferred to core product IP) |
+| **Layer 2** | **Custom Skills & Governance** | Declarative `SKILL.md` Packages, Deterministic Policy Engines, Ad-Hoc Execution Scripts & Tooling, JSON Schema Validators, Custom Client Business Rules, Dedicated Evaluation Suites | **Modular IP**<br>(Venture retains sanitized skills by default; client buyout available via MSA as part of vertical growth strategy) |
+| **Layer 3** | **Generalizable Tools & Action Ecosystem** | Enterprise API Wrappers (SAP, Jira, Salesforce), Headless Browser Automation Drivers, File & Document Generators, Scoped Least-Privilege Tool Suites | **Shared AI Agent Registry**<br>(Accumulated across client deployments into a shared registry to drive ~98% vertical product-market fit) |
 
-Layer 1 (Core Agent Engine): Represents 100% proprietary intellectual property that manages execution lifecycles, state durability, and system governance. Critically, Layer 1 innovations typically originate on frontline customer deployments within FDE pods—where engineering teams encounter real-world edge cases—before being battle-tested, abstracted, and transferred to the core product team to manage as permanent platform IP. This engine incorporates execution state serialization for clean pause-and-resume hibernation across system restarts, context compaction to prune stale logs and prevent memory decay over multi-day loops, dynamic routing between fast small language models and frontier LLMs to minimize compute costs, persistent multi-tiered memory stores, and deterministic supervisor audit layers to monitor reasoning drift and enforce compliance gates.
+
+Layer 1 (Core Agent Engine): Represents 100% proprietary intellectual property that manages execution lifecycles, state durability, and system governance. Critically, Layer 1 innovations typically originate on frontline customer deployments within FDE pods—where engineering teams encounter real-world edge cases—before being battle-tested, abstracted, and transferred to the core product team to manage as permanent core product IP. This engine incorporates execution state serialization for clean pause-and-resume hibernation across system restarts, context compaction to prune stale logs and prevent memory decay over multi-day loops, dynamic routing between fast small language models and frontier LLMs to minimize compute costs, persistent multi-tiered memory stores, and deterministic supervisor audit layers to monitor reasoning drift and enforce compliance gates.
 
 Layer 2 (Custom Skills & Deterministic Governance): Separates client-specific operational rules, business logic, and domain expertise from the central engine. Built and accumulated over time as part of the vertical growth flywheel, Layer 2 pairs declarative `SKILL.md` packages (containing decision trees, contextual guidance, and helper scripts) with deterministic policy engines and schema validators. Prompts guide general reasoning, while policy engines enforce non-negotiable compliance rules, approval thresholds, and security boundaries. The venture retains ownership of all sanitized skills by default, while allowing enterprise clients to negotiate IP buyouts.
 
