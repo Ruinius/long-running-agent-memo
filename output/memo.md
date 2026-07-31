@@ -109,7 +109,7 @@ Operating in highly regulated financial environments demands strict, multi-layer
 
 ## 3. The Forward Deployed Engineering (FDE) Pod
 
-### Industry Consensus: The Industrial Machine Paradigm & Growth Engine
+### Industry Consensus: The Growth Engine
 
 A clear consensus has emerged among enterprise AI leaders: off-the-shelf AI agents cannot be sold into major corporations through simple self-service portals. Large enterprises operate on fragmented legacy software, incomplete databases, and unwritten operational habits that probabilistic AI models struggle to navigate unassisted. Enterprise AI agent companies do not function like low-touch SaaS vendors; instead, they operate like precision industrial equipment manufacturers—much like ASML deploying specialized engineering teams directly inside semiconductor fabrication plants to calibrate, integrate, and maintain complex machinery.
 
@@ -137,7 +137,7 @@ The Forward Deployed Engineer determines how the system operates. As a business-
 
 The AI Architect diagnoses why agents drift or fail in production. As a resourceful and pragmatic AI researcher, this specialist inspects model reasoning trajectories, tunes supervisor guardrails, designs memory storage structures, and ensures operational stability over multi-day execution loops. Increasingly, an emerging organizational trend attempts to collapse the AI Architect and Forward Deployed Engineer into a single role. However, enterprise AI companies find this consolidation highly challenging in practice: the scrappy, builder-focused engineer mindset and the empirical, analytical scientist mindset (rigorously diagnosing model drift, reasoning trajectories, and probabilistic failure modes) demand fundamentally different cognitive styles and operational workflows.
 
-### Economic Trajectory: Sequential Vertical Mastery & Managing Custom Code
+### Economic Trajectory: Sequential Vertical Mastery
 
 While FDE pods require heavy staffing during initial client onboarding, their long-term economic goal is self-elimination within a specific industry vertical through increasing AI agent capabilities. Achieving high gross margins relies on sequential vertical mastery—fully dominating one industry sector before redeploying engineers to the next.
 
@@ -145,7 +145,7 @@ When an FDE pod enters a new vertical, it works on-site to build a solution that
 
 In enterprise IT, roughly 10% to 15% of client integration logic—such as custom mainframe connectors or proprietary database schemas—remains permanently un-abstractable. FDE pods isolate this client-specific code inside modular Layer 2 adapters, preventing custom glue code from cluttering the central product engine. Once an industry vertical reaches maturity, the pod transfers maintenance to standard support teams and redeploys to crack an adjacent market.
 
-### Failure Modes and Strategic Discipline: The Art of Graceful Rejection
+### Failure Modes and Strategic Discipline
 
 Without strict operational boundaries, FDE pods risk falling into two destructive failure modes. In the Subsidized IT Consultancy Trap, the FDE pods degrade into a traditional IT consulting practice selling billable human hours; enterprise AI agent ventures, however, rely on deploying autonomous AI agents at high AI agent margins rather than monetizing labor arbitrage. Alternatively, in the Glorified Implementation Team Trap, senior engineering talent becomes permanently tied down by routine customer maintenance and bespoke integration work, inflating operating overhead and starving new vertical expansion of top technical talent.
 
@@ -153,15 +153,15 @@ Navigating these operational hazards requires executive leadership to empower FD
 
 ## 4. Agent Monetization & Risk Allocation
 
-### Consumption-Based Pricing: Tokens, Compute Units, and Hidden Margins
+### Consumption-Based Pricing
 
 Consumption-based pricing remains the prevailing mainstream model across the enterprise AI market today, billing buyers either directly per million API tokens or through abstract "Agent Compute Units" (ACUs) metering execution time. Fundamentally, there is no structural difference between these two approaches: ACUs simply repackage raw token and virtual machine consumption with a hidden margin layer for the vendor. Despite its market dominance, consumption billing is increasingly recognized by corporate buyers as a flawed mainstream model that shifts all operational financial risk onto the customer. In long-running, multi-day background execution loops, enterprise customers are catching on to three major structural defects: unpredictable monthly budget volatility, severe incentive misalignment where vendor revenues inflate when agents get stuck in retry loops, and opaque value delivery where buyers pay for raw compute cycles rather than verifiably completed business outcomes.
 
-### Outcome-Based Pricing: Benefits, Unit-Economic Risks, and Safeguards
+### Outcome-Based Pricing
 
 Leading AI agent companies are shifting toward outcome-based pricing, charging customers strictly per completed result. This model shifts operational risk from buyer to vendor: the AI agent provider absorbs the cost of compute, retry loops, and context maintenance, while the customer is billed only when a task is verifiably completed—such as a resolved helpdesk ticket or a qualified sales lead. Crucially, pricing per completed output enables corporate buyers to easily benchmark agent costs against their existing internal operational metrics, streamlining procurement approval and providing a clear, defensible business case for executive leadership.
 
-### Sovereign Managed Service Agreements for Regulated Sectors
+### Sovereign Managed Service Agreements
 
 For defense agencies, global banks, and healthcare providers, standard consumption or outcome pricing fails to satisfy strict regulatory mandates. These institutions demand absolute data sovereignty and on-premise execution—requiring local model deployments, private cloud hosting, or air-gapped network operation. Furthermore, the largest organizations view agent workflows as digital encapsulations of core trade secrets, insisting on full ownership of custom intellectual property developed for their systems. Yet, because these buyers manage large capital budgets, they remain willing to pay premium rates for long-running AI agents that resolve critical operational bottlenecks.
 
@@ -191,12 +191,11 @@ Third, with a battle-tested core engine, the venture deploys multidisciplinary F
 
 To protect AI agent margins and prevent the AI agent from degrading into custom IT services, AI agent architectures must enforce a strict separation between core engine capabilities, client business logic, and generalizable tool connectors.
 
-| Layer | Architectural Layer Name | Core Technical Components | IP Ownership & Business Model |
-| :--- | :--- | :--- | :--- |
-| **Layer 1** | **Core Agent Engine** | Durable Execution State Serializer, Self-Correcting Reflection, Context Compaction Engine, Supervisor Audit & Logging, Dynamic Model Routing (SLM/LLM), Persistent Memory R&D | **100% Proprietary Venture IP**<br>(Managed by Core Product Team; core engine innovations originate in FDE pods before being battle-tested, abstracted, and transferred to core product IP) |
-| **Layer 2** | **Custom Skills & Governance** | Declarative `SKILL.md` Packages, Deterministic Policy Engines, Ad-Hoc Execution Scripts & Tooling, JSON Schema Validators, Custom Client Business Rules, Dedicated Evaluation Suites | **Modular IP**<br>(Venture retains sanitized skills by default; client buyout available via MSA as part of vertical growth strategy) |
-| **Layer 3** | **Generalizable Tools & Action Ecosystem** | Enterprise API Wrappers (SAP, Jira, Salesforce), Headless Browser Automation Drivers, File & Document Generators, Scoped Least-Privilege Tool Suites | **Shared AI Agent Registry**<br>(Accumulated across client deployments into a shared registry to drive ~98% vertical product-market fit) |
-
+| Layer       | Architectural Layer Name                   | Core Technical Components                                                                                                                                                            | IP Ownership & Business Model                                                                                                                                                               |
+| :---------- | :----------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Layer 1** | **Core Agent Engine**                      | Durable Execution State Serializer, Self-Correcting Reflection, Context Compaction Engine, Supervisor Audit & Logging, Dynamic Model Routing (SLM/LLM), Persistent Memory R&D        | **100% Proprietary Venture IP**<br>(Managed by Core Product Team; core engine innovations originate in FDE pods before being battle-tested, abstracted, and transferred to core product IP) |
+| **Layer 2** | **Custom Skills & Governance**             | Declarative `SKILL.md` Packages, Deterministic Policy Engines, Ad-Hoc Execution Scripts & Tooling, JSON Schema Validators, Custom Client Business Rules, Dedicated Evaluation Suites | **Modular IP**<br>(Venture retains sanitized skills by default; client buyout available via MSA as part of vertical growth strategy)                                                        |
+| **Layer 3** | **Generalizable Tools & Action Ecosystem** | Enterprise API Wrappers (SAP, Jira, Salesforce), Headless Browser Automation Drivers, File & Document Generators, Scoped Least-Privilege Tool Suites                                 | **Shared AI Agent Registry**<br>(Accumulated across client deployments into a shared registry to drive ~98% vertical product-market fit)                                                    |
 
 Layer 1 (Core Agent Engine): Represents 100% proprietary intellectual property that manages execution lifecycles, state durability, and system governance. Critically, Layer 1 innovations typically originate on frontline customer deployments within FDE pods—where engineering teams encounter real-world edge cases—before being battle-tested, abstracted, and transferred to the core product team to manage as permanent core product IP. This engine incorporates execution state serialization for clean pause-and-resume hibernation across system restarts, context compaction to prune stale logs and prevent memory decay over multi-day loops, dynamic routing between fast small language models and frontier LLMs to minimize compute costs, persistent multi-tiered memory stores, and deterministic supervisor audit layers to monitor reasoning drift and enforce compliance gates.
 
