@@ -9,7 +9,7 @@
 
 **1. Long-Running Autonomous Agents vs. Interactive Co-Pilots & Stateless Swarms:** The evolution of AI agents has unfolded across three distinct paradigms. First, interactive co-pilots emerged to assist users synchronously in real-time tasks like coding, writing, and research through direct turn-by-turn interactions. Second, agent swarms introduced parallel, multi-agent workflows—whether interactive or autonomous—built to maximize throughput for labor-intensive tasks, though remaining simple and stateless. Today, we have entered the era of long-running autonomous agents, engineered to operate independently like human digital workers over extended horizons of days and weeks. This autonomy relies on two structural pillars: **Durable Execution State**—the ability to persist process states, event logs, and tool actions so agents can hibernate, await human sign-offs, and resume cleanly across system restarts without losing context—and **Persistent Memory**, which maintains operational history, past decisions, and domain knowledge across sessions.
 
-**2. High-Impact Market Opportunities & Industry Leaders:** While coding agents represent the most lucrative application area, AI-assisted software development is already a crowded market dominated by frontier labs and specialized startups. Consequently, the next best high-margin commercial opportunities for enterprise AI agent ventures lie in core business operations: **Outbound Business Development (BDR)** (prospect sourcing, contact enrichment, and lead qualification), **IT Service Management (ITSM)** (automated helpdesk ticket resolution and access provisioning), **Financial Services KYC & Loan Origination** (automated identity verification and underwriting packages), and **Enterprise Legacy Software Modernization** (automated dependency updates and codebase refactoring). Industry leadership is defined across pioneering platforms and open-source foundations:
+**2. High-Impact Market Opportunities & Industry Leaders:** While coding agents represent the most lucrative application area, AI-assisted software development is already a crowded market dominated by frontier labs and specialized startups. Consequently, the next best high-margin commercial opportunities for enterprise AI agent ventures lie in core business operations: **Outbound Business Development (BDR)** (prospect sourcing, contact enrichment, and lead qualification), **IT Service Management (ITSM)** (automated helpdesk ticket resolution and access provisioning), **Financial Services KYC & Loan Origination** (automated identity verification and underwriting packages), and **Tail Procurement** (automated supplier RFQs and spend management). Industry leadership is defined across pioneering AI agent ventures and open-source foundations:
 
 - **Cognition AI (Scott Wu):** Co-founder & CEO Scott Wu highlights the strategic shift in software engineering, noting that _"Software engineers will operate more like architects, creatively structuring problems for armies of Devins to reliably execute on"_ (Scott Wu, Cognition AI Strategy Update, June 2026).
 - **Sierra AI (Bret Taylor):** Co-founder Bret Taylor emphasizes the enterprise evolution toward autonomous action, stating that _"AI agents are emerging as the new digital front door for enterprises, taking direct business actions rather than merely serving as passive conversational interfaces"_ (Bret Taylor, Sierra AI Keynote, February 2026).
@@ -41,7 +41,7 @@ Three core capabilities govern long-running agent execution:
 | **Decision Autonomy**                 | Human-guided, back-and-forth prompt interaction.                | Pre-defined task delegation across agents.                           | Autonomous self-reflection, trajectory tracking, and re-planning.              |
 | **Human Interaction**                 | Direct, synchronous back-and-forth engagement.                   | Unattended batch execution; unhandled errors cause failure.          | Asynchronous pause-and-resume; hibernates while awaiting approvals.            |
 | **Primary Operational Failure Modes** | Context exhaustion, prompt drift, immediate session termination. | Inter-agent coordination overhead, message flooding, error cascades. | Memory accumulation drift, circular retry loops, token budget overruns.        |
-| **Core Enterprise Use Cases**         | Interactive code completion, pair writing, live document search. | Parallel web research, batch processing, data extraction.            | Autonomous BDR lead qualification, ITSM access automation, legacy refactoring. |
+| **Core Enterprise Use Cases**         | Interactive code completion, pair writing, live document search. | Parallel web research, batch processing, data extraction.            | Autonomous BDR lead qualification, ITSM access automation, Financial KYC, Tail Procurement. |
 
 ### End-to-End Operational Workflow: ITSM Long-Running Agent
 
@@ -77,10 +77,7 @@ Early agent deployments succeed best in structured business workflows characteri
 
 Crucially, **general greenfield coding tools (building apps from scratch) have matured into an intensely saturated red-ocean market**, dominated by frontier model labs and developer tool startups (Cognition/Devin, Factory, OpenHands). Competing directly in generic coding tools offers poor differentiation for enterprise AI ventures.
 
-Instead, high-value commercial opportunities lie in two areas:
-
-1. **Core Enterprise Operations:** **Outbound BDR** (prospecting and qualification), **IT Service Management (ITSM)** (helpdesk ticket resolution and access provisioning), and **KYC & Financial Loan Origination** (identity verification and credit analysis).
-2. **Enterprise Legacy Modernization:** **Legacy Codebase Modernization** (automated dependency updates, security vulnerability remediation, and COBOL/legacy Java refactoring across thousands of enterprise repositories), which addresses massive enterprise IT maintenance budgets rather than generic greenfield coding.
+Instead, high-value commercial opportunities lie in core enterprise business operations: **Outbound BDR** (prospecting and qualification), **IT Service Management (ITSM)** (helpdesk ticket resolution and access provisioning), **KYC & Financial Loan Origination** (identity verification and credit analysis), and **Tail Procurement** (automated supplier RFQs and spend management).
 
 ### Primary Use Case Deep Dives
 
@@ -120,24 +117,14 @@ Instead, high-value commercial opportunities lie in two areas:
 - **Internal Dog-Fooding & Dual Benefit:** Deploying the agent internally automates the venture’s own vendor purchasing, sharpening quote-parsing loops on live company spending while cutting tail procurement overhead by 8–12%.
 - **Quantitative KPIs:** 75% faster RFQ cycles (reduced from weeks to hours), 8–12% savings on unmanaged tail spend, and 100% audit compliance.
 
-#### Legacy Enterprise Software Modernization Agent: Codebase Maintenance & Refactoring
-
-> **Definition:** An autonomous software engineering worker focused on enterprise codebase maintenance, dependency upgrades, security patching, and legacy refactoring.
-
-- **Workflow Execution:** Ingests maintenance tickets from Jira/GitHub, scans enterprise repositories, sets up sandboxed development environments, updates outdated dependencies, refactors legacy code patterns, runs test suites, and opens pull requests.
-- **Guardrails:** Mandatory human code review before merging, sandboxed execution with restricted network access, and test suite pass requirements.
-- **Market Positioning & Dog-Fooding:** Avoids generic greenfield code generation. Instead, it targets multi-billion dollar enterprise legacy maintenance budgets. Dog-fooded internally to maintain the venture's own software repos, test runners, and API wrappers.
-- **Quantitative KPIs:** Pull request merge rate, percentage of routine dependency updates automated, zero security regression rate, and backlog ticket MTTR reduction.
-
 ### Comparative Use Case Analysis
 
 | Use Case                                 | Core Operational Workflow                                        | Primary Guardrail                                                 | Dog-Fooding & Dual Benefit Strategy                                                                                 | Key Quantitative KPI                                         |
 | :--------------------------------------- | :--------------------------------------------------------------- | :---------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------- |
 | **Outbound BDR**                         | Prospecting, contact enrichment, qualification outreach.         | Outreach limits & automated opt-out enforcement.                  | **High:** Sources internal customer pipeline while refining outreach models on live leads.                          | Cost per qualified opportunity & meeting booking rate.       |
 | **ITSM Helpdesk**                        | Ticket parsing, access provisioning, automated troubleshooting.  | Role-based access caps & human sign-off on elevated permissions.  | **High:** Resolves internal employee IT tickets while battle-testing resolution scripts.                            | 70–80% auto-resolution rate & MTTR in seconds.               |
-| **Financial Services KYC & Origination** | Document extraction, KYC/AML checks, credit package drafting.    | Regulatory compliance rules & human sign-off on credit decisions. | **Reconciled:** Dog-fooded internally on vendor/counterparty checks; core loan modules tested in partner sandboxes. | 80% faster processing time & zero compliance audit failures. |
 | **Tail Procurement RFQs**                | RFQ issuance, quote evaluation, purchase recommendations.        | Spending caps & pre-approved vendor whitelists.                   | **High:** Refines RFQ handling on internal vendor spend while lowering company costs.                               | Tail spend savings % & RFQ cycle time reduction.             |
-| **Legacy Software Modernization**        | Dependency upgrades, security patching, legacy code refactoring. | Sandboxed execution & mandatory human code review.                | **High:** Battle-tested internally on company codebase maintenance; avoids generic greenfield coding competition.   | PR merge rate & routine maintenance ticket velocity boost.   |
+| **Financial Services KYC & Origination** | Document extraction, KYC/AML checks, credit package drafting.    | Regulatory compliance rules & human sign-off on credit decisions. | **N/A:** Software companies cannot originate loans internally; testing relies on design-partner regulatory sandboxes. | 80% faster processing time & zero compliance audit failures. |
 
 ---
 
@@ -263,7 +250,7 @@ Before exposing software to external enterprise clients, the venture deploys its
 - **Outbound BDR:** Sourcing prospective enterprise accounts, enriching contact profiles, and qualifying leads to power the venture's own sales pipeline.
 - **Internal Helpdesk & ITSM:** Automating internal employee access provisioning, password resets, helpdesk ticket parsing, and developer environment setups.
 - **Vendor Background Checks & Counterparty Verification:** Automating internal vendor compliance, document parsing, and identity checks (preparing core modules for Financial Services pilots).
-- **Legacy Software Maintenance:** Deploying maintenance tools internally to update dependencies, patch security flaws, and manage the venture's codebase.
+- **Tail Procurement Automation:** Managing internal vendor RFQs and small-dollar purchase requisitions to lower internal procurement overhead.
 
 Internal dog-fooding exposes state recovery bugs, memory drift, and tool failure cascades in a controlled, low-risk environment prior to commercial launch.
 

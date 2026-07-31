@@ -80,5 +80,5 @@ All memo drafts, outlines, and discussions MUST strictly adhere to this exact de
 4. **Rebranding Attempts vs. Market Confusion**: Traditional SaaS companies and IT consulting firms attempt to rebrand their existing teams using AI company terminology without changing their fundamental underlying product or service. While these rebranding attempts are not ill-intentioned, they introduce market confusion. Real FDE pods remain scarce Silicon Valley A-teams focused exclusively on building AI agent capabilities in the vertical.
 
 ### Terminology Rules
-* **AVOID Outdated SaaS Language**: Do NOT use terms like "platform capabilities" or traditional SaaS onboarding jargon.
-* **USE Vertical AI Agent Framing**: Always refer to **"building AI agent capabilities in the vertical"** (or vertical AI agent capabilities) when describing how FDE pods distill customer workflows into reusable assets.
+* **AVOID Outdated SaaS & Software Language**: Do NOT use SaaS-era terms like "platform" or "software" when referring to products or capabilities (e.g., avoid "platform capabilities", "base platform", "off-the-shelf software", "software margins", or "generalizable software").
+* **USE AI Agent Framing**: Always refer to **"AI agent"**, **"autonomous AI agent"**, or **"long-running AI agent"** (e.g., "base AI agent", "off-the-shelf AI agents", "AI agent margins", "building AI agent capabilities in the vertical").
